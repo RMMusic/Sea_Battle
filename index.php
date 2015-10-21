@@ -10,11 +10,11 @@ class Field
 {
     public $_fieldResolution = '';
 
-    public function __construct($a=10){
-        $this->_fieldResolution = $a;
-    }
+//    public function __construct($a=10){
+//        $this->_fieldResolution = $a;
+//    }
 
-    protected function _createField($_fieldResolution){
+    public function _createField($_fieldResolution=10){
         $fieldArray = array();
         for($x=0; $x < $_fieldResolution; $x++){
             for($y=0; $y < $_fieldResolution; $y++){
@@ -25,5 +25,14 @@ class Field
     }
 }
 
-$a = new Field(11);
-echo $a->_fieldResolution;
+$a = new Field();
+$b = $a->_createField(10);
+//var_dump($b);
+
+//echo '<table border="1">';
+    foreach($b as $key => $value){
+        foreach($value as $keyIn => $valueIn){
+            echo $valueIn[$key][$keyIn];
+        }
+    }
+//echo '</table>';
