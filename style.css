@@ -1,0 +1,19 @@
+header{
+    background-color: #0082D1;
+    height: 60px;
+    display:block;
+}
+.text-header{
+    text-align: center;
+    font-size: 34pt;
+}
+body{
+    margin: 10px;
+    background: #c3cac6;
+    font-family: Consolas, sans-serif;
+}
+.you-edit{
+    text-align: center;
+    font-size: 24pt;
+    color: #dc7153;
+}
