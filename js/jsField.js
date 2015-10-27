@@ -4,6 +4,7 @@
 $( document ).ready(function() {
 
     $( ".shipOne" ).draggable();
+    $( ".shipDouble" ).draggable();
 
     $( ".item" ).droppable({
         drop: function( event, ui ) {

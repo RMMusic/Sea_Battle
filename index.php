@@ -22,6 +22,9 @@
 <div class="shipOne">1</div>
 <div class="shipOne">1</div>
 <div class="shipOne">1</div>
+<div class="shipDouble">2</div>
+<div class="shipDouble">2</div>
+<div class="shipDouble">2</div>
 
 
 
