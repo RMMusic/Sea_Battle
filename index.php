@@ -8,12 +8,21 @@
 ?>
 <?php include'header.php'?>
 
-<form action="gameController.php" method="post">
-<?php for ($x = 0; $x <= 9; $x++):
-    for($y = 0; $y <= 9; $y++):?>
-        <input type="checkbox" name="<?php echo $x ?>,<?php echo $y ?>">
-    <?php endfor ?>
-    <br>
-    <?php endfor ?>
-    <button type="submit">Go!!!</button>
-</form>
+<table>
+    <?php for ($x = 0; $x <= 9; $x++):
+        echo '<tr>';
+        for($y = 0; $y <= 9; $y++):?>
+            <td class="item" data-coordinates="<?php echo $x ?>,<?php echo $y ?>"></td>
+        <?php endfor ?>
+        </tr>
+        <?php endfor ?>
+</table>
+
+<div class="shipOne">1</div>
+<div class="shipOne">1</div>
+<div class="shipOne">1</div>
+<div class="shipOne">1</div>
+
+
+
+<?php include'footer.php'?>

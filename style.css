@@ -17,3 +17,13 @@ body{
     font-size: 24pt;
     color: #dc7153;
 }
+.item{
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+}
+.shipOne{
+    width: 30px;
+    height: 30px;
+    background: chartreuse;
+}
