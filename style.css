@@ -22,14 +22,52 @@ body{
     width: 30px;
     height: 30px;
 }
+
+.ship{
+    width: 30px;
+    height: 30px;
+    background: chartreuse;
+    border: 1px solid;
+}
+
 .shipOne{
     width: 30px;
     height: 30px;
     background: chartreuse;
 }
 
-.shipDouble{
-    width: 60px;
+.shipDoubleHorizontal{
+     width: 60px;
+     height: 30px;
+     background: chartreuse;
+}
+
+.shipDoubleVertical{
+    width: 30px;
+    height: 60px;
+    background: chartreuse;
+}
+
+.shipTripleHorizontal{
+    width: 90px;
     height: 30px;
+    background: chartreuse;
+}
+
+.shipTripleVertical{
+    width: 30px;
+    height: 90px;
+    background: chartreuse;
+}
+
+.shipFourHorizontal{
+    width: 120px;
+    height: 30px;
+    background: chartreuse;
+}
+
+.shipFourVertical{
+    width: 30px;
+    height: 120px;
     background: chartreuse;
 }

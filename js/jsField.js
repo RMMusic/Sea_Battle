@@ -3,14 +3,12 @@
  */
 $( document ).ready(function() {
 
-    $( ".shipOne" ).draggable();
-    $( ".shipDouble" ).draggable();
+    $( ".ship" ).draggable({ containment:'.container1', revert: "valid", cursorAt: { top: 0, left: 0 }});
 
-    $( ".item" ).droppable({
+    $( ".item" ).droppable({ tolerance:'pointer',
         drop: function( event, ui ) {
             if($(this).hasClass('closed')===false) {
-
-                $(this).addClass('shipOne closed');
+                $(this).addClass('ship closed');
                 ui.draggable.remove();
                 var a = $(this).data('coordinates').split(',');
                 closedArrounShips(a);
@@ -38,14 +36,38 @@ $( document ).ready(function() {
         }
     }
 
+    $('.shipDouble'). on('click', function(){
+        if($(this).hasClass('shipDoubleHorizontal')){
+            $(this).removeClass('shipDoubleHorizontal');
+            $(this).addClass('shipDoubleVertical');
+        }
+        else{
+            $(this).removeClass('shipDoubleVertical');
+            $(this).addClass('shipDoubleHorizontal');
+        }
+    })
 
+    $('.shipTriple'). on('click', function(){
+        if($(this).hasClass('shipTripleHorizontal')){
+            $(this).removeClass('shipTripleHorizontal');
+            $(this).addClass('shipTripleVertical');
+        }
+        else{
+            $(this).removeClass('shipTripleVertical');
+            $(this).addClass('shipTripleHorizontal');
+        }
+    })
 
-
-
-
-
-
-
+    $('.shipFour'). on('click', function(){
+        if($(this).hasClass('shipFourHorizontal')){
+            $(this).removeClass('shipFourHorizontal');
+            $(this).addClass('shipFourVertical');
+        }
+        else{
+            $(this).removeClass('shipFourVertical');
+            $(this).addClass('shipFourHorizontal');
+        }
+    })
 
 
 });
