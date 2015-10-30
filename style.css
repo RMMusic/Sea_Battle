@@ -12,6 +12,12 @@ body{
     background: #c3cac6;
     font-family: Consolas, sans-serif;
 }
+
+.checkShip{
+    width: 35px;
+    height: 25px;
+}
+
 .you-edit{
     text-align: center;
     font-size: 24pt;
