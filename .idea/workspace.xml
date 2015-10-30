@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/Validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jsField.js" afterPath="$PROJECT_DIR$/js/jsField.js" />
+    <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="work with classes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/gameController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/indexJS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sea_Battle.iws" />
@@ -20,6 +22,18 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -42,7 +56,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-13.846154">
               <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding />
+              <folding>
+                <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+                <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,15 +67,15 @@
       <file leaf-file-name="gameController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/gameController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25925925">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.38808373">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
-                <marker date="1446213576330" expanded="true" signature="622:685" placeholder="DELETE FROM ..." />
-                <marker date="1446213576330" expanded="true" signature="633:685" placeholder="INSERT INTO ..." />
-                <marker date="1446213576330" expanded="true" signature="770:822" placeholder="INSERT INTO ..." />
-                <marker date="1446213576330" expanded="true" signature="770:823" placeholder="INSERT INTO ..." />
-                <marker date="1446213576330" expanded="true" signature="770:833" placeholder="INSERT INTO ..." />
-                <marker date="1446213576330" expanded="true" signature="770:885" placeholder="INSERT INTO ..." />
+                <marker date="1446214408316" expanded="true" signature="622:661" placeholder="DELETE FROM ..." />
+                <marker date="1446214408316" expanded="true" signature="633:661" placeholder="INSERT INTO ..." />
+                <marker date="1446214408316" expanded="true" signature="746:807" placeholder="INSERT INTO ..." />
+                <marker date="1446214408316" expanded="true" signature="746:808" placeholder="INSERT INTO ..." />
+                <marker date="1446214408316" expanded="true" signature="746:821" placeholder="INSERT INTO ..." />
+                <marker date="1446214408316" expanded="true" signature="746:872" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -69,7 +86,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-17.692308">
               <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding />
+              <folding>
+                <marker date="1446210798248" expanded="true" signature="309:343" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,11 +96,21 @@
       <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.576923">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state vertical-scroll-proportion="-3.8846154">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding>
                 <marker date="1446213383365" expanded="true" signature="1118:1151" placeholder="SELECT name ..names..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexJS.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indexJS.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.230769">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -242,11 +271,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first_class" />
+    <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -311,7 +341,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446207504898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="work with classes">
+      <created>1446213824144</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446213824144</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -323,20 +359,20 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -354,7 +390,8 @@
     <MESSAGE value="field in JS" />
     <MESSAGE value="field in JS1" />
     <MESSAGE value="and now checkbox! :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="and now checkbox! :)" />
+    <MESSAGE value="work with classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -399,7 +436,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+            <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -441,7 +481,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+            <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,7 +526,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+            <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -525,7 +571,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+            <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -557,7 +606,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+            <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -589,7 +641,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+            <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -623,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexJS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -643,7 +690,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.846154">
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
+          <folding>
+            <marker date="1446208593781" expanded="true" signature="180:592" placeholder="..." />
+            <marker date="1446208593781" expanded="true" signature="325:450" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -706,31 +756,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.692308">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <marker date="1446210798248" expanded="true" signature="309:343" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39e30625-f88b-4322-a8a0-231b19500fa4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.576923">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state vertical-scroll-proportion="-3.8846154">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
           <folding>
             <marker date="1446213383365" expanded="true" signature="1118:1151" placeholder="SELECT name ..names..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/indexJS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.230769">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/gameController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25925925">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.38808373">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
-            <marker date="1446213576330" expanded="true" signature="622:685" placeholder="DELETE FROM ..." />
-            <marker date="1446213576330" expanded="true" signature="633:685" placeholder="INSERT INTO ..." />
-            <marker date="1446213576330" expanded="true" signature="770:822" placeholder="INSERT INTO ..." />
-            <marker date="1446213576330" expanded="true" signature="770:823" placeholder="INSERT INTO ..." />
-            <marker date="1446213576330" expanded="true" signature="770:833" placeholder="INSERT INTO ..." />
-            <marker date="1446213576330" expanded="true" signature="770:885" placeholder="INSERT INTO ..." />
+            <marker date="1446214408316" expanded="true" signature="622:661" placeholder="DELETE FROM ..." />
+            <marker date="1446214408316" expanded="true" signature="633:661" placeholder="INSERT INTO ..." />
+            <marker date="1446214408316" expanded="true" signature="746:807" placeholder="INSERT INTO ..." />
+            <marker date="1446214408316" expanded="true" signature="746:808" placeholder="INSERT INTO ..." />
+            <marker date="1446214408316" expanded="true" signature="746:821" placeholder="INSERT INTO ..." />
+            <marker date="1446214408316" expanded="true" signature="746:872" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
