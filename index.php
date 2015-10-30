@@ -7,7 +7,7 @@
  */
 ?>
 <?php include'header.php'?>
-    <form action="class/inOutDB.php" method="post">
+    <form action="classes/gameController.php" method="post">
     <table>
         <?php for ($x = 1; $x <= 10; $x++):
             echo '<tr>';
