@@ -50,8 +50,8 @@ class Query extends Connect
         return $result;
     }
 
-    public function Select(){
-        $result = mysqli_query($this->_mySqlConnect, 'SELECT name FROM names WHERE id=1');
+    public function Select($sqlQuery){
+        $result = mysqli_query($this->_mySqlConnect, $sqlQuery);
         $data =  mysqli_fetch_all($result, MYSQLI_ASSOC);
         return $data;
     }

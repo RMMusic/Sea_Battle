@@ -22,6 +22,8 @@ class GameController
         $valid = new \classes\Validation($this->_inData);
         if($valid->isValid()){
             $this->_insertBD();
+            $this->_shipsSelect();
+
         }
         else{
            echo '!!!';
@@ -35,6 +37,14 @@ class GameController
             $insert->Insert("INSERT INTO ships_field (ships_coordinates, user_id) VALUES ('".$key."', 1);");
         }
     }
+
+    protected function _shipsSelect(){
+        $select = new Query();
+        $selectArray = $select->Select("SELECT ships_coordinates FROM ships_field WHERE USER_id=1");
+
+        var_dump($selectArray);
+    }
+
 }
 
 new GameController($_POST);

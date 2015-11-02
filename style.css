@@ -3,14 +3,17 @@ header{
     height: 60px;
     display:block;
 }
+
 .text-header{
     text-align: center;
     font-size: 34pt;
 }
+
 body{
-    margin: 10px;
-    background: #c3cac6;
+    margin: 20px;
+    background: #c4caae;
     font-family: Consolas, sans-serif;
+    color: #0082D1;
 }
 
 .checkShip{
@@ -23,6 +26,7 @@ body{
     font-size: 24pt;
     color: #dc7153;
 }
+
 .item{
     border: 1px solid;
     width: 30px;
