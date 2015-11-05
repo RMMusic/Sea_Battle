@@ -33,7 +33,7 @@ abstract class Connect
 
     abstract public function Insert($sqlQuery);
 
-//    abstract public function Select();
+    abstract public function Select($sqlQuery);
 
 }
 
