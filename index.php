@@ -23,4 +23,3 @@
     </form>
 <?php include'footer.php'?>
 
-test text

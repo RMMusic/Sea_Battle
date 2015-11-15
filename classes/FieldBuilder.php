@@ -16,7 +16,7 @@ echo '<table border="1">';
 for($x  = 1; $x <=10; $x++){
     echo '<tr>';
     for($y = 1; $y <= 10; $y++){
-        echo '<td>';
+        echo '<td width="20px"; height="20px";>';
         if (in_array($x.','.$y, $explodeShipsCoordinates)){
             echo '1';
         }
