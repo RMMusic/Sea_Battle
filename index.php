@@ -21,5 +21,6 @@
     </table>
         <button type="submit">GO!</button>
     </form>
+
 <?php include'footer.php'?>
 

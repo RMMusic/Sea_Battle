@@ -27,7 +27,10 @@ class GameController
         }
         else{
             $this->_insertBD();
-//           echo '!!!';
+//            header("Location: sb");
+//           echo "<script>alert(\"Перевірте кількість та якість кораблів \");</script>";
+//            die();
+
         }
     }
 

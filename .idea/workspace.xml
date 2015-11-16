@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="clear test text">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="Standart white and hide of table">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/RandomShip.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/FieldBuilder.php" afterPath="$PROJECT_DIR$/classes/FieldBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/gameController.php" afterPath="$PROJECT_DIR$/classes/gameController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="Sea_Battle.iws" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,11 +62,11 @@
       <file leaf-file-name="gameController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/gameController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383">
-              <caret line="44" column="66" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="71" />
+            <state vertical-scroll-proportion="-15.807693">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <marker date="1447319649662" expanded="true" signature="694:733" placeholder="DELETE FROM ..." />
-                <marker date="1447319649662" expanded="true" signature="1041:1114" placeholder="INSERT INTO ships_field..." />
+                <marker date="1447623493744" expanded="true" signature="819:858" placeholder="DELETE FROM ..." />
+                <marker date="1447623493744" expanded="true" signature="1166:1239" placeholder="INSERT INTO ships_field..." />
               </folding>
             </state>
           </provider>
@@ -76,20 +75,32 @@
       <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.8461537">
+            <state vertical-scroll-proportion="13.730769">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldBuilder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FieldBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/FieldBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5425532">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
-                <marker date="1447597118501" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+                <marker date="1447598251988" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomShip.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66312057">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <marker date="1447657740884" expanded="true" signature="665:722" placeholder="SELECT ships..ships_field..." />
               </folding>
             </state>
           </provider>
@@ -98,8 +109,8 @@
       <file leaf-file-name="Validation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Validation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -120,16 +131,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.576923">
               <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jsField.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jsField.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -168,12 +169,13 @@
         <option value="$PROJECT_DIR$/class/inOutDB.php" />
         <option value="$PROJECT_DIR$/class/DB.php" />
         <option value="$PROJECT_DIR$/class/gameController.php" />
-        <option value="$PROJECT_DIR$/classes/Validation.php" />
         <option value="$PROJECT_DIR$/js/jsField.js" />
         <option value="$PROJECT_DIR$/classes/DB.php" />
+        <option value="$PROJECT_DIR$/classes/Validation.php" />
+        <option value="$PROJECT_DIR$/classes/FieldBuilder.php" />
         <option value="$PROJECT_DIR$/classes/gameController.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/classes/FieldBuilder.php" />
+        <option value="$PROJECT_DIR$/classes/RandomShip.php" />
       </list>
     </option>
   </component>
@@ -357,7 +359,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446214476767</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Standart white and hide of table">
+      <created>1447597194740</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1447597194740</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -402,23 +410,14 @@
     <MESSAGE value="and now checkbox! :)" />
     <MESSAGE value="work with classes" />
     <MESSAGE value="clear test text" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear test text" />
+    <MESSAGE value="Standart white and hide of table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Standart white and hide of table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/FieldBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1447597118501" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -773,47 +772,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/DB.php">
+    <entry file="file://$PROJECT_DIR$/classes/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.8461537">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="35" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Validation.php">
+    <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state vertical-scroll-proportion="13.730769">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/gameController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9615383">
-          <caret line="44" column="66" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="71" />
-          <folding>
-            <marker date="1447319649662" expanded="true" signature="694:733" placeholder="DELETE FROM ..." />
-            <marker date="1447319649662" expanded="true" signature="1041:1114" placeholder="INSERT INTO ships_field..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/FieldBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5425532">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
-            <marker date="1447597118501" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+            <marker date="1447598251988" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/gameController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.807693">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1447623493744" expanded="true" signature="819:858" placeholder="DELETE FROM ..." />
+            <marker date="1447623493744" expanded="true" signature="1166:1239" placeholder="INSERT INTO ships_field..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66312057">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <marker date="1447657740884" expanded="true" signature="665:722" placeholder="SELECT ships..ships_field..." />
           </folding>
         </state>
       </provider>
