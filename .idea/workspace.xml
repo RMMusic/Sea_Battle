@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="">
+    <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="Generate 1Ship">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/RandomShip.php" afterPath="$PROJECT_DIR$/classes/RandomShip.php" />
     </list>
     <ignored path="Sea_Battle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +40,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-24.192308">
               <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexJS.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indexJS.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,7 +70,7 @@
       <file leaf-file-name="gameController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/gameController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-35.307693">
+            <state vertical-scroll-proportion="-16.653847">
               <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               <folding>
                 <marker date="1447791924282" expanded="true" signature="879:918" placeholder="DELETE FROM ..." />
@@ -72,7 +83,7 @@
       <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-15.346154">
               <caret line="54" column="32" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="33" />
               <folding />
             </state>
@@ -91,23 +102,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsField.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jsField.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RandomShip.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9451613">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.37593985">
+              <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
               <folding>
-                <marker date="1447940402544" expanded="true" signature="2570:2627" placeholder="SELECT ships..ships_field..." />
+                <marker date="1447966417001" expanded="true" signature="2540:2549" placeholder="..." />
+                <marker date="1447966417001" expanded="true" signature="2796:2853" placeholder="SELECT ships..ships_field..." />
               </folding>
             </state>
           </provider>
@@ -372,7 +374,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447943437145</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Generate 1Ship">
+      <created>1447943446133</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1447943446133</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -381,7 +389,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13762811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283767" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -720,25 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexJS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15070923">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -749,25 +742,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/DB.php">
+    <entry file="file://$PROJECT_DIR$/classes/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="33" />
+        <state vertical-scroll-proportion="-6.8461537">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state vertical-scroll-proportion="-15.346154">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/gameController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.307693">
+        <state vertical-scroll-proportion="-16.653847">
           <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding>
             <marker date="1447791924282" expanded="true" signature="879:918" placeholder="DELETE FROM ..." />
@@ -776,18 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jsField.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8461537">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -802,12 +787,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/indexJS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.192308">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jsField.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9451613">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.37593985">
+          <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
           <folding>
-            <marker date="1447940402544" expanded="true" signature="2570:2627" placeholder="SELECT ships..ships_field..." />
+            <marker date="1447966417001" expanded="true" signature="2540:2549" placeholder="..." />
+            <marker date="1447966417001" expanded="true" signature="2796:2853" placeholder="SELECT ships..ships_field..." />
           </folding>
         </state>
       </provider>

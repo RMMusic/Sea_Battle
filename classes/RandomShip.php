@@ -32,9 +32,11 @@ class RandomShip
         return $cheShip;
     }
 
-    public function oneShipArray($n)
+    public function oneShipArray($n, $shipArray)
     {
-        $shipArray=$this->ziroTabel();
+        if (empty($shipArray)) {
+            $shipArray = $this->ziroTabel();
+        }
         $kil=1;
         while($kil<=(5-$n)) {
             $z = rand(1, 2);
@@ -81,16 +83,23 @@ class RandomShip
 }
 $oneShip = new RandomShip();
 //$p1 = $oneShip->oneShipArray(1);
-$p2 = $oneShip->oneShipArray(3);
-echo '<table border="1">';
+$p2=array();
+for ($i=1;$i<=4;$i++) {
+    $p2 = $oneShip->oneShipArray($i, $p2);
+}
+    echo '<table border="1">';
 for($x  = 1; $x <=10; $x++){
     echo '<tr>';
     for($y = 1; $y <= 10; $y++){
-        echo '<td width="20px"; height="20px";>';
+        echo '<td width = "20px"  height = "20px">';
 
 //        if (in_array($x.','.$y, $explodeShipsCoordinates)){
-//        echo $p1[$x][$y];
-        echo $p2[$x][$y];
+        if ($p2[$x][$y]==1){
+           echo '<span style="color:red">' .$p2[$x][$y].  '</span>';
+        }
+        else {
+            echo $p2[$x][$y];
+        }
 //        }
         echo '</td>';
     }
