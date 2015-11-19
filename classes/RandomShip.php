@@ -35,7 +35,8 @@ class RandomShip
     public function oneShipArray($n)
     {
         $shipArray=$this->ziroTabel();
-        for($kil=1; $kil<=(5-$n); $kil++) {
+        $kil=1;
+        while($kil<=(5-$n)) {
             $x = rand(1, 10);
             $y = rand(1, 10);
 
@@ -47,6 +48,7 @@ class RandomShip
                     }
                 }
                 $shipArray[$x][$y] = 1;
+                $kil++;
             }
 
         }
