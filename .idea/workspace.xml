@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/RandomShip.php" afterPath="$PROJECT_DIR$/classes/RandomShip.php" />
     </list>
     <ignored path="Sea_Battle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -361,7 +360,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447920252143</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Generate 1Ship">
+      <created>1447943430780</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1447943430780</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
