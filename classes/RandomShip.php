@@ -32,47 +32,47 @@ class RandomShip
         return $cheShip;
     }
 
-    public function oneShipArray($n, $shipArray)
+    public function ShipArray($numberOfShipDecks, $shipArray)
     {
         if (empty($shipArray)) {
             $shipArray = $this->ziroTabel();
         }
-        $kil=1;
-        while($kil<=(5-$n)) {
+        $numberOfShip=1;
+        while($numberOfShip<=(5-$numberOfShipDecks)) {
             $z = rand(1, 2);
             if ($z==1) {
-                $x = rand(1, (11-$n));
+                $x = rand(1, (11-$numberOfShipDecks));
                 $y = rand(1, 10);
 
-                    if ($shipArray[$x][$y] == 0 and $shipArray[$x+$n-1][$y] == 0) {
+                    if ($shipArray[$x][$y] == 0 and $shipArray[$x+$numberOfShipDecks-1][$y] == 0) {
 
-                        for ($i = -1; $i <= $n; $i++) {
+                        for ($i = -1; $i <= $numberOfShipDecks; $i++) {
                             for ($j = -1; $j <= 1; $j++) {
                                 $shipArray[$x + $i][$y + $j] = 9;
                             }
                         }
-                        for($s=1;$s<=$n;$s++) {
+                        for($s=1;$s<=$numberOfShipDecks;$s++) {
                             $shipArray[$x+$s-1][$y] = 1;
                         }
-                        $kil++;
+                        $numberOfShip++;
                     }
                 }
 
             else{
-                $y = rand(1, (11-$n));
+                $y = rand(1, (11-$numberOfShipDecks));
                 $x = rand(1, 10);
 
-                if ($shipArray[$x][$y] == 0 and $shipArray[$x][$y+$n-1] == 0) {
+                if ($shipArray[$x][$y] == 0 and $shipArray[$x][$y+$numberOfShipDecks-1] == 0) {
 
                     for ($i = -1; $i <= 1; $i++) {
-                        for ($j = -1; $j <= $n; $j++) {
+                        for ($j = -1; $j <= $numberOfShipDecks; $j++) {
                             $shipArray[$x + $i][$y + $j] = 9;
                         }
                     }
-                    for($s=1;$s<=$n;$s++) {
+                    for($s=1;$s<=$numberOfShipDecks;$s++) {
                         $shipArray[$x][$y+$s-1] = 1;
                     }
-                    $kil++;
+                    $numberOfShip++;
                 }
                 }
             }
@@ -85,7 +85,7 @@ $oneShip = new RandomShip();
 //$p1 = $oneShip->oneShipArray(1);
 $p2=array();
 for ($i=1;$i<=4;$i++) {
-    $p2 = $oneShip->oneShipArray($i, $p2);
+    $p2 = $oneShip->ShipArray($i, $p2);
 }
     echo '<table border="1">';
 for($x  = 1; $x <=10; $x++){
@@ -97,9 +97,9 @@ for($x  = 1; $x <=10; $x++){
         if ($p2[$x][$y]==1){
            echo '<span style="color:red">' .$p2[$x][$y].  '</span>';
         }
-        else {
-            echo $p2[$x][$y];
-        }
+//        else {
+//            echo $p2[$x][$y];
+//        }
 //        }
         echo '</td>';
     }
