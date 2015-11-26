@@ -12,6 +12,7 @@ require_once('DB.php');
 class RandomShip
 {
     public $shipArray = array();
+    protected $decks = array();
 
     public function __construct()
     {
@@ -29,23 +30,23 @@ class RandomShip
         }
     }
 
-    public function AddOneShip($horizontalDecks, $verticalDecks){
-        $x = rand(1, (11-$horizontalDecks));
-        $y = rand(1, (11-$verticalDecks));
-        if ($this->shipArray[$x][$y] == 0 and $this->shipArray[$x+$horizontalDecks-1][$y+$verticalDecks-1] == 0) {
-            for ($i = -1; $i <= $horizontalDecks; $i++) {
-                for ($j = -1; $j <= $verticalDecks; $j++) {
+    public function AddOneShip(){
+        $x = rand(1, (11-$this->decks[horizontal]));
+        $y = rand(1, (11-$this->decks[vertical]));
+        if ($this->shipArray[$x][$y] == 0 and $this->shipArray[$x+$this->decks[horizontal]-1][$y+$this->decks[vertical]-1] == 0) {
+            for ($i = -1; $i <= $this->decks[horizontal]; $i++) {
+                for ($j = -1; $j <= $this->decks[vertical]; $j++) {
                     $this->shipArray[$x + $i][$y + $j] = 9;
                 }
             }
-            for($s=1; $s<=$horizontalDecks; $s++) {
-                for($d=1; $d<=$verticalDecks; $d++) {
+            for($s=1; $s<=$this->decks[horizontal]; $s++) {
+                for($d=1; $d<=$this->decks[vertical]; $d++) {
                     $this->shipArray[$x + $s - 1][$y+$d-1] = 1;
                 }
             }
         }
         else{
-            $this->AddOneShip($horizontalDecks, $verticalDecks);
+            $this->AddOneShip();
             }
        }
 
@@ -55,11 +56,14 @@ class RandomShip
         while($numberOfShip<=(5-$numberOfShipDecks)) {
             $z = rand(1, 2);
             if ($z==1) {
-                $this->AddOneShip($numberOfShipDecks, 1);
-                  }
-            else{
-                $this->AddOneShip(1, $numberOfShipDecks);
+                $this->decks[horizontal] = $numberOfShipDecks;
+                $this->decks[vertical] = 1;
                 }
+            else{
+                $this->decks[horizontal] = 1;
+                $this->decks[vertical] = $numberOfShipDecks;
+                }
+            $this->AddOneShip();
             $numberOfShip++;
             }
     }
@@ -72,7 +76,6 @@ for($x  = 1; $x <=10; $x++){
     echo '<tr>';
     for($y = 1; $y <= 10; $y++){
         echo '<td width = "20px"  height = "20px">';
-
 //        if (in_array($x.','.$y, $explodeShipsCoordinates)){
         if ($oneShip->shipArray[$x][$y]==1){
             echo '<span style="color:red">' .$oneShip->shipArray[$x][$y].  '</span>';
