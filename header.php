@@ -5,6 +5,7 @@
  * Date: 09.10.2015
  * Time: 15:43
  */
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,5 +17,10 @@
     <meta charset = "UTF-8">
     <title>Sea battle</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
+<?php
+//echo (isset($_SESSION["error"]))?$_SESSION["error"]:'';
+echo $_SESSION['error'];
+?>

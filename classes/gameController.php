@@ -5,7 +5,7 @@
  * Date: 22.10.2015
  * Time: 17:43
  */
-
+session_start();
 require_once('DB.php');
 require_once('Validation.php');
 
@@ -27,11 +27,14 @@ class GameController
         }
         else{
           //  $this->_insertBD();
-//
+
+            $_SESSION["error"] = "Перевірте кількість та якість кораблів";
+
 //          echo "<script>alert(\"Перевірте кількість та якість кораблів \");</script>";
-            echo "Перевірте кількість та якість кораблів";
-//            header("Location: sb");
-           die();
+//            echo "Перевірте кількість та якість кораблів";
+            header("Location:../index.php");
+//            header("Location: FieldBuilder.php");
+            exit();
 
         }
     }
