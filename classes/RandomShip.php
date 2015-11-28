@@ -9,6 +9,7 @@
 namespace classes;
 require_once('DB.php');
 
+
 class RandomShip
 {
     public $shipArray = array();
@@ -16,13 +17,13 @@ class RandomShip
 
     public function __construct()
     {
-        $this->ziroArray();
+        $this->zeroArray();
 
         for ($i=4;$i>=1;$i--) {
             $this->ShipArray($i);
         }
     }
-    public function ziroArray(){
+    public function zeroArray(){
          for($x  = 1; $x <=10; $x++){
             for($y = 1; $y <= 10; $y++){
                 $this->shipArray[$x][$y]=0;
@@ -75,28 +76,28 @@ echo '<table border="1">';
 for($x  = 1; $x <=10; $x++){
     echo '<tr>';
     for($y = 1; $y <= 10; $y++){
-        echo '<td width = "20px"  height = "20px">';
-//        if (in_array($x.','.$y, $explodeShipsCoordinates)){
+        echo '<td width = "30px"  height = "30px">';
         if ($oneShip->shipArray[$x][$y]==1){
             echo '<span style="color:red">' .$oneShip->shipArray[$x][$y].  '</span>';
+//            echo '<div id="ship"></div>';
+            $ar[]=$x.','.$y;
         }
-//        else {
-//            echo $shipToArray[$x][$y];
-//        }
-//        }
         echo '</td>';
     }
     echo '</tr>';
 }
 echo '</table>';
 
-
 ?>
 
 <form action="RandomShip.php" method="get">
-    <input type="submit" name="button" value=" Generate egeyn! " />
+    <input type="submit" name="button" value=" Generate again! " />
 </form>
 
-<form action="gameController.php" method="get">
-    <input type="submit" name="button" value=" Done! " />
+<form action="gameController.php" method="post">
+    <?php foreach($ar as $checkbox) :?>
+       <input type="hidden" name = "<?php $checkbox ?>" />
+
+ <?php endforeach ?>
+    <button type="submit">Done!</button>
 </form>
