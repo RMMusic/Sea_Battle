@@ -9,15 +9,15 @@
 <?php include'header.php'?>
     <form action="classes/gameController.php" method="post">
     <table>
-        <?php for ($x = 1; $x <= 10; $x++):
-            echo '<tr>';
-            for($y = 1; $y <= 10; $y++):?>
+        <?php for ($x = 1; $x <= 10; $x++):?>
+            <tr>
+            <?php for($y = 1; $y <= 10; $y++):?>
                 <td>
                     <input type="checkbox" class="checkShip" name="<?php echo $x ?>,<?php echo $y ?>">
                 </td>
             <?php endfor ?>
             </tr>
-            <?php endfor ?>
+        <?php endfor ?>
     </table>
         <button type="submit">GO!</button>
     </form>

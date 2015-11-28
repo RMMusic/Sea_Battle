@@ -15,6 +15,6 @@
 <head>
     <meta charset = "UTF-8">
     <title>Sea battle</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/Sea_Battle/css/style.css">
 </head>
 <body>

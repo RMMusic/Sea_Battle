@@ -19,19 +19,19 @@ class GameController
     }
 
     protected function _validation(){
-        $valid = new \classes\Validation($this->_inData);
+        $valid = new Validation($this->_inData);
         if($valid->isValid()){
-            $this->_insertBD();
+            $this->_insertDB();
 //            $this->_shipsSelect();
 
         }
         else{
-            $this->_insertBD();
+            $this->_insertDB();
 //           echo '!!!';
         }
     }
 
-    protected function _insertBD(){
+    protected function _insertDB(){
         $insert = new Query();
         $insert->Delete("DELETE FROM ships_field WHERE user_id=1;");
         $coordinatesArray = array();

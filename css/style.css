@@ -16,6 +16,13 @@ body{
     color: #0082D1;
 }
 
+.nice-td td{
+    border: 3px solid grey;
+    color: #0082D1;
+    height: 30px;
+    width: 30px;
+}
+
 .checkShip{
     width: 35px;
     height: 25px;
