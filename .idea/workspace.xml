@@ -4,7 +4,6 @@
     <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/RandomShip.php" afterPath="$PROJECT_DIR$/classes/RandomShip.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/gameController.php" afterPath="$PROJECT_DIR$/classes/gameController.php" />
     </list>
     <ignored path="Sea_Battle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,10 +84,10 @@
       <file leaf-file-name="RandomShip.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78064513">
+            <state vertical-scroll-proportion="0.6983871">
               <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
               <folding>
-                <marker date="1448911455825" expanded="true" signature="2232:2241" placeholder="..." />
+                <marker date="1448911674204" expanded="true" signature="2232:2245" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -172,8 +171,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/classes/FieldBuilder.php" />
-        <option value="$PROJECT_DIR$/classes/RandomShip.php" />
         <option value="$PROJECT_DIR$/classes/gameController.php" />
+        <option value="$PROJECT_DIR$/classes/RandomShip.php" />
       </list>
     </option>
   </component>
@@ -487,7 +486,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448888584034</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Done send randomship to game controller">
+      <created>1448911612852</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1448911612852</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -537,7 +542,8 @@
     <MESSAGE value="Generate 1Ship" />
     <MESSAGE value="Done generate array" />
     <MESSAGE value="Optimization code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimization code" />
+    <MESSAGE value="Done send randomship to game controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done send randomship to game controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -926,10 +932,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78064513">
+        <state vertical-scroll-proportion="0.6983871">
           <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
           <folding>
-            <marker date="1448911455825" expanded="true" signature="2232:2241" placeholder="..." />
+            <marker date="1448911674204" expanded="true" signature="2232:2245" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -80,7 +80,7 @@ for($x  = 1; $x <=10; $x++){
     for($y = 1; $y <= 10; $y++){
         echo '<td width = "30px"  height = "30px">';
         if ($oneShip->shipArray[$x][$y]==1){
-            echo '<span style="color:red">' .$oneShip->shipArray[$x][$y].  '</span>';
+            echo '<span style="color:#f465ff">' .$oneShip->shipArray[$x][$y].  '</span>';
 //            echo '<div id="ship"></div>';
             $ar[]=$x.','.$y;
         }
