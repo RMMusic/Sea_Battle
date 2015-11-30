@@ -89,16 +89,15 @@ for($x  = 1; $x <=10; $x++){
     echo '</tr>';
 }
 echo '</table>';
-
+//$a = implode("/", $ar);
 ?>
 
-<!--<form action="RandomShip.php" method="get">-->
-<!--    <input type="submit" name="button" value=" Generate again! " />-->
-<!--</form>-->
-
-
 <?php for($i=0; $i<20; $i++):?>
-       <input type="hidden" name="ar" value = "<?php echo $ar; ?>" />
+       <input type="hidden" name="<?php echo $ar[$i]; ?>" />
     <?php endfor; ?>
     <button type="submit">Done!</button>
+
+</form>
+<form action="RandomShip.php" method="get">
+    <input type="submit" name="button" value=" Generate again! " />
 </form>
