@@ -23,6 +23,12 @@ body{
     width: 30px;
 }
 
+.place{
+    position: absolute;
+    left: 400px;
+    top: 25px;
+}
+
 .checkShip{
     width: 35px;
     height: 25px;

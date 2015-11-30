@@ -27,3 +27,17 @@ for($x  = 1; $x <=10; $x++){
     echo '</tr>';
 }
 echo '</table>';
+
+echo '<table class="nice-td place">';
+for($x  = 1; $x <=10; $x++){
+    echo '<tr>';
+    for($y = 1; $y <= 10; $y++){
+        echo '<td>';
+        if (in_array($x.','.$y, $explodeShipsCoordinates)){
+            echo '<div class="ship">';
+        }
+        echo '</td>';
+    }
+    echo '</tr>';
+}
+echo '</table>';
