@@ -70,8 +70,10 @@ class RandomShip
     }
 }
 $oneShip = new RandomShip();
-
-
+?>
+<form action="gameController.php" method="post">
+<?php
+    $ar=array();
 echo '<table border="1">';
 for($x  = 1; $x <=10; $x++){
     echo '<tr>';
@@ -90,14 +92,13 @@ echo '</table>';
 
 ?>
 
-<form action="RandomShip.php" method="get">
-    <input type="submit" name="button" value=" Generate again! " />
-</form>
+<!--<form action="RandomShip.php" method="get">-->
+<!--    <input type="submit" name="button" value=" Generate again! " />-->
+<!--</form>-->
 
-<form action="gameController.php" method="post">
-    <?php foreach($ar as $checkbox) :?>
-       <input type="hidden" name = "<?php $checkbox ?>" />
 
- <?php endforeach ?>
+<?php for($i=0; $i<20; $i++):?>
+       <input type="hidden" name="ar" value = "<?php echo $ar; ?>" />
+    <?php endfor; ?>
     <button type="submit">Done!</button>
 </form>

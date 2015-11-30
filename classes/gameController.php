@@ -8,6 +8,7 @@
 session_start();
 require_once('DB.php');
 require_once('Validation.php');
+var_dump($_POST);
 
 class GameController
 {
