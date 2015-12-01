@@ -73,7 +73,6 @@
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="false" />
-                <marker date="1448953728777" expanded="true" signature="975:984" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -101,13 +100,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldBuilder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FieldBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/FieldBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67105263">
+            <state vertical-scroll-proportion="-15.692307">
               <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
-                <marker date="1448953728775" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+                <marker date="1448961134009" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomShip.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2450658">
+              <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+              <folding>
+                <marker date="1448961134031" expanded="true" signature="2232:2245" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -156,8 +167,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/classes/gameController.php" />
-        <option value="$PROJECT_DIR$/classes/RandomShip.php" />
         <option value="$PROJECT_DIR$/classes/FieldBuilder.php" />
+        <option value="$PROJECT_DIR$/classes/RandomShip.php" />
       </list>
     </option>
   </component>
@@ -246,6 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,7 +307,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,14 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/Validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -869,7 +872,6 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="false" />
-            <marker date="1448953728777" expanded="true" signature="975:984" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -918,10 +920,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/FieldBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67105263">
+        <state vertical-scroll-proportion="-15.692307">
           <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
           <folding>
-            <marker date="1448953728775" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+            <marker date="1448961134009" expanded="true" signature="183:240" placeholder="SELECT ships..ships_field..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/RandomShip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2450658">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <marker date="1448961134031" expanded="true" signature="2232:2245" placeholder="..." />
           </folding>
         </state>
       </provider>
