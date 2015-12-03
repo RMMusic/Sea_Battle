@@ -23,9 +23,15 @@ body{
     width: 30px;
 }
 
-.place{
+.place-one{
     position: absolute;
-    left: 400px;
+    left: 25px;
+    top: 25px;
+}
+
+.place-two{
+    position: absolute;
+    left: 375px;
     top: 25px;
 }
 
@@ -47,8 +53,8 @@ body{
 }
 
 .ship{
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     background: chartreuse;
     border: 1px solid;
 }

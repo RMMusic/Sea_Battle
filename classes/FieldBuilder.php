@@ -14,7 +14,7 @@ $shipsCoordinates = $selectShips->Select("SELECT ships_coordinates FROM ships_fi
 
 $explodeShipsCoordinates = explode("/", $shipsCoordinates[0]["ships_coordinates"]);
 
-echo '<table class="nice-td">';
+echo '<table class="nice-td place-one">';
 for($x  = 1; $x <=10; $x++){
     echo '<tr>';
     for($y = 1; $y <= 10; $y++){
@@ -28,15 +28,13 @@ for($x  = 1; $x <=10; $x++){
 }
 echo '</table>';
 
-echo '<table class="nice-td place">';
+echo '<table class="nice-td place-two">';
 for($x  = 1; $x <=10; $x++){
     echo '<tr>';
     for($y = 1; $y <= 10; $y++){
-        echo '<td>';
-        if (in_array($x.','.$y, $explodeShipsCoordinates)){
-            echo '<div class="ship">';
-        }
-        echo '</td>';
+//        echo '<td>';
+        echo '<td><a href="gameController.php?coordinate='.$x.','.$y.'"><div class="ship"></div></a></td>';
+//        echo '</td>';
     }
     echo '</tr>';
 }
