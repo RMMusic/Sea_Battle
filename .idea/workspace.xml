@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="71552eae-8041-44dd-84f3-a46b053fac72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/FieldBuilder.php" afterPath="$PROJECT_DIR$/classes/FieldBuilder.php" />
     </list>
     <ignored path="Sea_Battle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -390,7 +389,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449137345593</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add button field!">
+      <created>1449137533144</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1449137533144</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
