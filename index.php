@@ -21,6 +21,9 @@
     </table>
         <button type="submit">GO!</button>
     </form>
+
+    <form action="classes/RandomShip.php" method="post">
+        <button type="submit">Generate!</button>
+    </form>
 <?php include'footer.php'?>
 
-test text
