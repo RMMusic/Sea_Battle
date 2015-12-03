@@ -27,17 +27,23 @@ for($x  = 1; $x <=10; $x++){
     echo '</tr>';
 }
 echo '</table>';
+?>
+<form action="RandomShip.php" method="post">
 
-echo '<table class="nice-td place">';
-for($x  = 1; $x <=10; $x++){
-    echo '<tr>';
-    for($y = 1; $y <= 10; $y++){
-        echo '<td>';
-        if (in_array($x.','.$y, $explodeShipsCoordinates)){
-            echo '<div class="ship">';
-        }
-        echo '</td>';
-    }
-    echo '</tr>';
-}
-echo '</table>';
+    <table class="nice-td place">
+        <?php for($x  = 1; $x <=10; $x++):?>
+            <tr>
+            <?php for($y = 1; $y <= 10; $y++):?>
+                <td>
+
+                    <button type="submit" class="fieldButton"></button>
+<!--//        if (in_array($x.','.$y, $explodeShipsCoordinates)){-->
+<!--//            echo '<div class="ship">';-->
+
+                </td>
+            <?php endfor ?>
+            </tr>
+        <?php endfor ?>
+    </table>
+
+</form>
