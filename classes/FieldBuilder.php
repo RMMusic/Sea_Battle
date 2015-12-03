@@ -35,7 +35,7 @@ echo '</table>';
             <tr>
             <?php for($y = 1; $y <= 10; $y++):?>
                 <td>
-
+                    <input type="hidden" name="<?php echo $x ?>,<?php echo $y ?>">
                     <button type="submit" class="fieldButton"></button>
 <!--//        if (in_array($x.','.$y, $explodeShipsCoordinates)){-->
 <!--//            echo '<div class="ship">';-->
