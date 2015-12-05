@@ -28,22 +28,22 @@ for($x  = 1; $x <=10; $x++){
 }
 echo '</table>';
 ?>
-<form action="RandomShip.php" method="post">
+
 
     <table class="nice-td place">
         <?php for($x  = 1; $x <=10; $x++):?>
             <tr>
-            <?php for($y = 1; $y <= 10; $y++):?>
-                <td>
-                    <input type="hidden" name="<?php echo $x ?>,<?php echo $y ?>">
-                    <button type="submit" class="fieldButton"></button>
-<!--//        if (in_array($x.','.$y, $explodeShipsCoordinates)){-->
-<!--//            echo '<div class="ship">';-->
-
-                </td>
-            <?php endfor ?>
+            <?php for($y = 1; $y <= 10; $y++):
+              echo  '<td>';
+                   echo '<div><a href="gameController.php?shotcordinates='.$x.','.$y.'"><div class="fieldButton"></div></a></div>';
+//<!--                    <form action="RandomShip.php" method="post">-->
+//<!--                    <input type="hidden" name="--><?php //echo $x <!--,--><?php //echo $y <!--">-->
+//<!--                    <button type="submit" class="fieldButton"></button>-->
+//<!--                    </form>-->
+                echo '</td>';
+             endfor ?>
             </tr>
         <?php endfor ?>
     </table>
 
-</form>
+

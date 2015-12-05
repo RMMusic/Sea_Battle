@@ -95,6 +95,8 @@ body{
     background: chartreuse;
 }
 .fieldButton{
-    width: 30px;
-    height: 30px;
+    width: 29px;
+    height: 29px;
+    background: #ae3bff;
+    border: 1px solid;
 }
