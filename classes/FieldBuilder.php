@@ -35,7 +35,7 @@ echo '</table>';
             <tr>
             <?php for($y = 1; $y <= 10; $y++):
               echo  '<td>';
-                   echo '<div><a href="gameController.php?shotcordinates='.$x.','.$y.'"><div class="fieldButton"></div></a></div>';
+                   echo '<div><a href="gameController.php?shot_coordinates='.$x.','.$y.'"><div class="fieldButton"></div></a></div>';
 //<!--                    <form action="RandomShip.php" method="post">-->
 //<!--                    <input type="hidden" name="--><?php //echo $x <!--,--><?php //echo $y <!--">-->
 //<!--                    <button type="submit" class="fieldButton"></button>-->
