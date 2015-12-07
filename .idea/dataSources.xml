@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1703783749">
-    <data-source source="LOCAL" name="MySQL - SeaBattle@localhost" uuid="39e30625-f88b-4322-a8a0-231b19500fa4">
+  <component name="DataSourceManagerImpl" format="xml" hash="200713899">
+    <data-source source="LOCAL" name="MySQL - SeaBattle@localhost" uuid="58e4da07-64a1-4bb5-ad0d-7446165717bd">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/SeaBattle</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost/SeaBattle</jdbc-url>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />
@@ -13,11 +13,6 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
-      <libraries>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar</url>
-        </library>
-      </libraries>
     </data-source>
   </component>
 </project>

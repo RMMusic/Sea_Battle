@@ -12,7 +12,7 @@ require_once('Validation.php');
 if((isset($_GET['shot_coordinates']))){
     var_dump($_GET['shot_coordinates']);
     $shot = new Query();
-    $shot->Insert("INSERT INTO shots (shot_cordinates,id_user) VALUES('".$_GET['shot_coordinates']."',1);");
+    $shot->Insert("INSERT INTO shots (shot_cordinates,user_id) VALUES('".$_GET['shot_coordinates']."',1);");
     $selectShips = new Query();
 
     $shipsCoordinates = $selectShips->Select("SELECT ships_coordinates FROM ships_field WHERE USER_id=1");
