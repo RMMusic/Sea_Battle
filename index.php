@@ -24,3 +24,7 @@
 <?php include'footer.php'?>
 
 test text
+
+
+
+<div class="multilang"><span lang="UK">Iнститут моделювання та аналiзу патологiчних процесiв</span><span lang="EN">Institute of Pathological Processes Simulation and Analysis</span><span lang="RU">Институт моделирования и анализа патологических процессов</span></div>

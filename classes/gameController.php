@@ -11,6 +11,7 @@ require_once('Validation.php');
 
 if(isset($_GET['coordinate'])) {
     var_dump($_GET['coordinate']);
+
 }
 
 else {
@@ -48,17 +49,10 @@ else {
                 $coordinatesArray[$x] = $key;
                 $x++;
             }
-            $a = implode("/", $coordinatesArray);
-//          foreach($this->_inData as $key => $data) {
-            $insert->Insert("INSERT INTO ships_field (ships_coordinates, user_id) VALUES ('" . $a . "', 1);");
-//        }
+            $insert->Insert("INSERT INTO ships_field (ships_coordinates, user_id)
+                           VALUES ('" . implode("/", $coordinatesArray) . "', 1);");
 
         }
-
-//    protected function _shipsSelect(){
-//        $select = new Query();
-//        $select->Select("SELECT ships_coordinates FROM ships_field WHERE USER_id=1");
-//    }
 
     }
 
